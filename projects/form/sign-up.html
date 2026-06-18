@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="Background">
+      <source src="assets/video/Background.mp4" type="video/mp4" />
+    </video>
+    <form action="" method="get">
+      <p>Sign Up</p>
+      <div>
+        <label for="username">username</label>
+        <br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="example : John Doe"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example : john.doe@example.com"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="123456mM"
+          required
+        />
+      </div>
+      <div>
+        <label for="confirm-password">Confirm Password</label>
+        <br />
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          placeholder="123456mM"
+          required
+        />
+      </div>
+      <div>
+        <label for="terms">I agree to the terms and conditions</label>
+        <input type="checkbox" id="terms" name="terms" required />
+      </div>
+      <button type="submit">Sign Up</button><br /><br />
+      already have an account? <a href="sign-in.html">sign in</a>
+    </form>
+  </body>
+</html>

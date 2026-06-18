@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="Background">
+      <source src="assets/video/Background.mp4" type="video/mp4" />
+    </video>
+    <form action="" method="post">
+      <p>Sign In</p>
+      <div>
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example : john.doe@example.com"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="123456mM"
+          required
+        />
+      </div>
+      <a href="recover-password.html" id="forgot">Forgot Password?</a>
+      <br />
+      <br />
+      <button type="submit">Sign In</button><br /><br />
+      don't have an account? <a href="sign-up.html">sign up</a>
+    </form>
+  </body>
+</html>
